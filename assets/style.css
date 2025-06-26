@@ -1,0 +1,193 @@
+/* General page background and font */
+body {
+    background-color: #d2dee8; /* Light gray-blue background */
+    
+    font-family: 'Segoe UI', sans-serif; /* Clean sans-serif font */
+}
+
+/* Main panel container styling */
+.main-panel {
+    background-color: #fff; /* White background for main card */
+    padding: 30px;
+    margin: 40px auto;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+    max-width: 1200px;
+}
+
+/* Page title header */
+.header {
+    text-align: center;
+    color: #0d0331; /* Dark reddish-brown color */
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* Section sub-header label */
+.sub-header {
+    font-size: 20px;
+    font-weight: 500;
+    color: #1079e1; /* Blue tone */
+    margin-bottom: 8px;
+}
+
+/* Style for the radio items container */
+.radio-group {
+    display: flex; /* Makes radio buttons line up horizontally */
+    gap: 20px; /* Space between radio options */
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: rgb(13, 12, 12);
+}
+
+/* Space between radio button and label text */
+.radio-group .dash-radio-items label {
+    margin-right: 20px;
+    row-gap: 20px;
+    display: flex; /* Makes radio buttons line up horizontally */
+    gap: 20px;
+}
+
+/* Style for dropdowns */
+.dropdown {
+    width: 100%;
+    padding: 6px;
+}
+
+/* Graph area spacing */
+.graph-area {
+    margin-top: 30px;
+}
+
+/* Custom styling for summary cards */
+.summary-card {
+    background-color: #e9f5ff;  /* Light blue background */
+    border-left: 5px solid #1079e1;  /* Accent border */
+    border-right: 5px solid #1079e1;
+    transition: transform 0.2s ease;
+    
+}
+
+.summary-card:hover {
+    transform: scale(1.02);  /* Slight zoom on hover */
+    box-shadow: 0 6px 12px rgba(186, 16, 16, 0.1);
+}
+
+/* Custom modal appearance */
+.custom-modal .modal-content {
+    background-color: #fefefe;
+    border-radius: 12px;
+    border: 2px solid #1079e1;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.custom-modal .modal-header {
+    background-color: #1079e1;
+    color: white;
+    font-weight: bold;
+    border-bottom: none;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.custom-modal .modal-footer {
+    border-top: none;
+    background-color: #f0f4f7;
+}
+
+.custom-modal .modal-body {
+    font-size: 1rem;
+    color: #333;
+}
+
+
+
+
+
+
+/* Info button custom styles */
+.info-button {
+    margin-top: -100px;
+    margin-left: 900px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 8px 12px;
+    color: white;
+    background-color: #2a265a;
+    border: 1px solid #1E90FF;
+    transition: all 0.3s ease;
+}
+
+.info-button:hover {
+    background-color: #0066cc;
+    border-color: #0066cc;
+}
+
+#info-text {
+    font-size: 20px;
+    line-height: 1.5;
+    background-color: #0885f3; /* Light blue background */
+    padding-top: 20px;
+    border: 100px solid #061932; /* Lighter border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 4px 15px rgba(110, 104, 104, 0.1); /* Soft shadow around box */
+    max-width: 500px;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    /* Make the box scrollable */
+    max-height: 300px;  /* Define maximum height for the box */
+    overflow-y: auto;   /* Enable vertical scrolling */
+}
+
+#info-text p {
+    margin-bottom: 0;
+}
+
+
+.sub-header {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.radio-group {
+    margin-top: 5px;
+}
+
+.dropdown {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.custom-loader-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom-loader-box {
+    background-color: #ffffff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dash-loading {
+    backdrop-filter: blur(6px);
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 9999 !important;
+}
