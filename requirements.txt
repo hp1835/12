@@ -1,0 +1,9 @@
+gunicorn
+dash
+dash-bootstrap-components
+pandas
+joblib
+plotly
+openpyxl
+pyarrow
+werkzeug
